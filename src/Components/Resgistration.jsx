@@ -1,7 +1,7 @@
 import React , {useState} from 'react';
 import { Link } from 'react-router-dom';
 import loginpic from "../../src/img2.png";
-import './Registration.css';
+import '../Components/Style/Registration.css';
 // import Login_link from './Login';
 
 const Login=()=>{
