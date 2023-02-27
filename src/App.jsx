@@ -21,11 +21,6 @@ import Answer from './Components/Answer';
 
 // `````````````````````````````
 // `````````````````````````````````````
-
-
-
-
-
 function App() {
   return (
     <>
