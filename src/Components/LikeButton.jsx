@@ -4,8 +4,8 @@ import { ThumbDownAlt, ThumbUpAlt } from "@mui/icons-material";
 function LikeDislikeButtons() {
   const [like, setLike] = useState(false);
   const [dislike, setDislike] = useState(false);
-  const [likeCount, setLikeCount] = useState(0);
-  const [dislikeCount, setDislikeCount] = useState(0);
+  const [likeCount, setLikeCount] = useState(1);
+  const [dislikeCount, setDislikeCount] = useState(1);
 
   const handleLikeClick = () => {
     setLike(!like);
