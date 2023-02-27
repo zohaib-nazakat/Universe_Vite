@@ -1,0 +1,104 @@
+body{
+    padding-top: 61px;
+}
+
+.carousel-item{
+    height: 30%;
+    /* min-height: 200px !important; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background: #000;
+    opacity: 0.3;
+}
+.carousel-caption{
+    bottom: 1px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.carousel-caption h1{
+    font-size: 50px;
+    margin-top: 100px;
+    color: white !important;
+}
+span{
+    color: rgb(62, 62, 233);
+}
+.carousel-caption p{
+    font-size: 18px;
+    font-family: 'Raleway',sans-serif;
+    
+}
+.slider-btn .btn{
+    background-color: #009696;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: 'Raleway',sans-serif;
+
+}
+button#btn-clr:hover {
+    border: none;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+}
+
+
+.slider-btn .btn a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* ``````````````````````````````` Read Section```````````````````` */
+/* .read{
+    display: flex;
+    margin-left: 570px;
+    margin-top: 40px;
+    font-size: 45px;
+} */
+.read_para{
+    margin-top: 30px;
+    color: #000;
+     font-family: 'Raleway',sans-serif;
+      font-size: 25px;
+}
+/* .para_container{
+    color: white !important;
+    background-image: url('../../CsDepartment.png');
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 10px;
+} */
+.read{
+    /* margin-left: 40px; 
+
+     margin-bottom: 40px; */
+     color: #000;
+     /* color:#009696; */
+
+      font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center;
+    text-transform: uppercase
+}
+
+/* `````````````````````````````````` Faculty section ````````````````````````````` */
+.card-img-top{
+    width: 18rem;
+}
+.card img{
+    height: 400px;
+}
+
+#btn-clr{
+    color: white !important;
+}

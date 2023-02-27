@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke ;
+}
+.Ans_icon{
+    font-size: 23px ;
+    padding-top: 5px ;
+    padding-right: 7px ;
+    color: #009696 ;
+}
+.Ans_p{
+    color: black ;
+    font-size: 15px ;
+    padding-top: 9px ;
+}
+.border{
+    border: 1px solid silver;
+    border-bottom: none;
+}
+
+.Ans_question{
+    padding-top: 20px;
+}
+.Ans_question a{
+    margin-top: 10px;
+    padding-left: 28px;
+    text-decoration: none;
+    color: black;
+    margin-right: 150px;
+}
+.Ans_question a:hover{    
+    color: black;
+    text-decoration: underline;
+}
+
+.Ans_title{
+    padding-top: 2px;
+}
+.Ans_title a{
+    padding-left: 28px;
+    text-decoration: none;
+    color: silver;
+    font-size: 15px;
+}
+.Ans_title a:hover{    
+    color: silver;
+    text-decoration: underline;
+}
+
+.time{
+    color: silver;   
+    font-size: 14px;
+}
+.button{
+    color: rgb(71, 69, 69);
+    font-weight: 600;
+    font-size: revert;
+}
+.button:hover{
+    background-color: whitesmoke;
+    color: rgb(71, 69, 69);
+}
+.button_vote{
+    color: rgb(71, 69, 69);
+    font-weight: 600;
+    font-size: revert;
+    padding: 10px 15px 10px 15px; 
+}
+.button_vote:hover{
+    background-color: whitesmoke;
+    color: rgb(71, 69, 69);
+}
+
+.close__icon{
+    margin-left: 100px;
+    
+}
+
+#last__div{
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+}

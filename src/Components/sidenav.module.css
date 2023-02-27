@@ -1,0 +1,76 @@
+.sidenav {
+    transition: width 0.3s ease-in-out;
+    background-color: #009696;
+    padding-top: 28px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+}
+.sidenavClosed {
+    transition: width 0.3s ease-in-out;
+    width: 60px;
+    background-color: #009696;
+    position: fixed;
+    height: 100vh;
+    margin-right: 50px;
+}
+.sidenavClosed p{
+    font-size: 10px;
+}
+.sidenavClosed h2{
+    font-size: 15px;
+}
+
+.sideitem {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #B2BAC2;
+    text-decoration: none;
+    overflow: hidden;
+    color: white;
+}
+.linkText {
+    padding-left: 40px;
+}
+
+.sideitem:hover {
+    background-color: #244f7d1c;
+    color: white;
+
+}
+.menuBtn {
+    align-self: center;
+    align-self: flex-start;  
+    justify-self: flex-end;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+.body_heading{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.sidenav_icon{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+/* @media only screen and (max-width: 1000px) {
+    
+  } */

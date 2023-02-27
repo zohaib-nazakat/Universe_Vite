@@ -1,0 +1,130 @@
+.body{
+    overflow: visible;
+}
+/* .back-color{
+    background-color: rgb(146, 214, 214);
+} */
+.post{
+    margin-bottom: 20px;
+}
+.border-gray{
+    border-style: solid;
+    border-color: rgb(221,221,221);
+    border-width: 2px;
+}
+.text-gray-dark{
+    color: rgb(117,117,117);
+}
+.hover-dark:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+}
+
+.post-profile{
+    width: 55px;
+    height: 55px;
+    padding: 7px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+.post-button:hover{
+    background-color: rgb(238, 238, 238);
+}
+.left-button{
+    border-bottom-left-radius: var(--dropdown-radius);
+    border-top-left-radius: var(--dropdown-radius);
+}
+.right-button{
+    border-bottom-right-radius: var(--dropdown-radius);
+    border-top-right-radius: var(--dropdown-radius);
+}
+.black-color{
+    color: black;
+}
+
+.container1{
+    margin:0px;
+    margin-left: 100px;
+}
+
+/* `````````````` */
+/* changes Ali have made */
+.hover:hover{
+    background-color: #009696;
+}
+.ans_btn{
+    text-decoration: none;
+}
+
+/* ``````````````````````````````````````````````````````````````````````````````````````````````````````` */
+.comment_box{
+    border: 1px solid blue;
+    width: 90%;
+    margin-left: 6px;
+    padding: 10px;
+}
+#text{
+    width: 60%;
+    outline: 1px solid silver;
+    border: 1px solid silver;
+}
+.comment_input{
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 4px;
+    width: 70%;
+}
+::placeholder{
+    padding-left: 20px;
+
+}
+.add_comment{
+    border-radius: 50px;
+    margin-left: 10px;
+    background-color: #009696 ;
+    color: white;
+}
+.add_comment:hover{
+    color: white;
+    background-color: #009696 ;
+}
+.comment_thumb{
+    background-color: rgb(206, 197, 197);
+    border-radius: 50px;
+}
+.comment_reply{
+    outline: none;
+    border:1px solid grey;
+    border-radius: 50px;
+    padding: 4px;
+    width: 30%;
+    margin-left: 150px;
+}
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .container1 {
+        margin-left: 0px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .zohaib{
+        width: fit-content;
+        margin-left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 442px) {
+    .ask_clr{
+        display: flex;
+        flex-direction: column;
+    }
+}
