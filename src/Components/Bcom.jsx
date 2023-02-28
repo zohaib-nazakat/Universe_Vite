@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style/Bba.css";
-import img from "../CsDepartment.png";
+import img from "../images/Used_images/CsDepartment.png";
 // import img2 from "../SirKamran.png";
 // import img3 from "../SirMubashir.jpeg";
 import img4 from "../images/Bcom_img/Sohail.jpeg";

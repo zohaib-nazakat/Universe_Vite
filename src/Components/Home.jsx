@@ -25,7 +25,7 @@ import Footer from "../Components/Footer";
 import Comment from "./CommentUseState/Comment";
 import LikeButton from './LikeButton';
 
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 // import {  DockTwoTone, InsertComment, InsertCommentOutlined, InsertCommentTwoTone, MoreHoriz, ThumbDown, ThumbUpOffAlt } from "@mui/icons-material";
 
 const Home = () => {

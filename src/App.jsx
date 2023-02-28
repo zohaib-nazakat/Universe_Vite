@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css'
 // ``````````````````````````;
-import NavBar from './Navbar';
+import NavBar from './Components/Navbar';
 import Registration from './Components/Resgistration';
 import Home from './Components/Home';
 import Login from './Components/Login';
@@ -15,7 +15,7 @@ import BSM from './Components/BSM';
 import Bcom from './Components/Bcom';
 import LeaderBoard from './Components/LeaderBoard';
 import AboutUs from './Components/AboutUs';
-import NoticeBoard from './NoticeBoard';
+import NoticeBoard from './Components/NoticeBoard';
 import Answer from './Components/Answer';
 
 

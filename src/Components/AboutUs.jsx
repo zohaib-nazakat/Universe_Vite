@@ -3,7 +3,7 @@ import "../index.css";
 import zohaib from "../images/Our Team/zohaib.jpeg";
 import ali from "../images/Our Team/ali.jpeg";
 import rafay from "../images/Our Team/rafay.jpeg";
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 import Style from '../Components/Style/About.module.css';
 
 const AboutUs = () => {

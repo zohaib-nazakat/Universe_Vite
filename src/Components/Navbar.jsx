@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import './index.css';
+import '../index.css';
 // ``````````````````````
 import {Link} from 'react-router-dom';
-import DropDownProfile from './Components/DropdownProfile';
+import DropDownProfile from './DropdownProfile';
 
 // ``````````````````````
 

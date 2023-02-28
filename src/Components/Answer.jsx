@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../Navbar";
+import NavBar from "./Navbar";
 import Style from "./Style/Answer.module.css";
 import Footer from "./Footer";
 function Answer() {

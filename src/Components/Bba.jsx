@@ -1,9 +1,9 @@
 import React from "react";
 import "./Style/Bba.css";
-import img from "../CsDepartment.png";
+import img from "../images/Used_images/CsDepartment.png";
 import img1 from "../images/Bba_Img/sana-ullah.jpg";
 import img2 from "../images/Bba_Img/tabassum.jpeg";
-import img3 from "../SirMubashir.jpeg";
+import img3 from "../images/Used_images/SirMubashir.jpeg";
 
 import Footer from "./Footer";
 const Bba = () => {

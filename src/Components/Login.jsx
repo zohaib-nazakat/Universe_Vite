@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import loginpic from "../../src/img2.png";
+import loginpic from "../images/Used_images/img2.png";
 import '../Components/Style/Login.css';
 import { Link } from 'react-router-dom';
 

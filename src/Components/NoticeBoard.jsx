@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./NoticeBoard.css";
+import "../Components/Style/NoticeBoard.css";
 import NavBar from "./Navbar";
-import second from './images/Results/bscs/2nd.jpeg';
-import seventh from './images/Results/bscs/7th.jpeg';
-import fifth from './images/Results/bscs/5th.jpeg';
+import second from '../images/Results/bscs/2nd.jpeg';
+import seventh from '../images/Results/bscs/7th.jpeg';
+import fifth from '../images/Results/bscs/5th.jpeg';
 const NoticeBoard = () => {
   return (
     <>

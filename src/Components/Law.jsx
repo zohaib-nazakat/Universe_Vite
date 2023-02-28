@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style/Bba.css";
-import img from "../CsDepartment.png";
+import img from "../images/Used_images/CsDepartment.png";
 import img1 from "../images/Law_img/faraz.jpg";
 import img2 from "../images/Law_img/saimabutt.jpg";
 import img3 from "../images/Law_img/Yasir.jpg";

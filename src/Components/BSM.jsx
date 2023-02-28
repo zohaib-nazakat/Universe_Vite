@@ -1,10 +1,10 @@
 import React from "react";
 import "./Style/Bba.css";
-import img from "../CsDepartment.png";
-import img1 from "../MadamNadia.jpg";
-import img2 from "../SirKamran.png";
-import img3 from "../SirMubashir.jpeg";
-import img4 from "../RizwanAbbas.jpg";
+import img from "../images/Used_images/CsDepartment.png";
+import img1 from "../images/Used_images/MadamNadia.jpg";
+import img2 from "../images/Used_images/SirKamran.png";
+import img3 from "../images/Used_images/SirMubashir.jpeg";
+import img4 from "../images/Used_images/RizwanAbbas.jpg";
 
 import Footer from './Footer';
 
